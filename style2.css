@@ -1,0 +1,198 @@
+.contentPageOuter{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 75%;
+    table-layout: fixed;
+    z-index: 0;
+}
+.subNavPad{
+    display: table-cell;
+    width: 25%;
+    background: white;
+    box-sizing: border-box; 
+    padding: 5em 4em;
+    table-layout: fixed;
+    height: 100%;
+    vertical-align: top;
+    padding-right: 0;
+}
+.subNav{
+    font-family: 'MuseoSansW01-300Italic';
+    /* margin: auto; */
+    /* display: inline-block; */
+    /* width: inherit; */
+}
+.subNav a{
+    display: block;
+    color: #58595b;
+    margin-bottom: 2.15384615384615em;
+    font-size: .8em;
+    position: relative;
+}
+
+#maximage.subPage{width: 75%;left: 25%;}
+
+.subNav .active{color: #007698 !important;}
+.subNav .active:after{content: "";display:block;position:absolute;right: -10px;  text-align:right;top: -6px;font-size: 3em;color: #1d3b44;background: url("img/sub-active-pseudo.png");height: 24px;width: 21px;background-size: contain;background-repeat: no-repeat;opacity: 0.93;}
+.contentPad{
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    table-layout: fixed;
+    box-sizing: border-box;
+    background: -moz-linear-gradient(left,  rgba(0,34,45,0.89) 0%, rgba(0,49,64,0.89) 21%, rgba(0,64,85,0.89) 52%, rgba(0,73,99,0.89) 83%, rgba(0,75,103,0.89) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,34,45,0.89)), color-stop(21%,rgba(0,49,64,0.89)), color-stop(52%,rgba(0,64,85,0.89)), color-stop(83%,rgba(0,73,99,0.89)), color-stop(100%,rgba(0,75,103,0.89))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,34,45,0.89) 0%,rgba(0,49,64,0.89) 21%,rgba(0,64,85,0.89) 52%,rgba(0,73,99,0.89) 83%,rgba(0,75,103,0.89) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,34,45,0.89) 0%,rgba(0,49,64,0.89) 21%,rgba(0,64,85,0.89) 52%,rgba(0,73,99,0.89) 83%,rgba(0,75,103,0.89) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,34,45,0.89) 0%,rgba(0,49,64,0.89) 21%,rgba(0,64,85,0.89) 52%,rgba(0,73,99,0.89) 83%,rgba(0,75,103,0.89) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,34,45,0.89) 0%,rgba(0,49,64,0.89) 21%,rgba(0,64,85,0.89) 52%,rgba(0,73,99,0.89) 83%,rgba(0,75,103,0.89) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e300222d', endColorstr='#e3004b67',GradientType=1 ); /* IE6-9 */
+    vertical-align: top;
+    padding: 3em 2em;
+}
+.content {}
+.theTitle {}
+.theTitle hr{width:6em; margin:auto;}
+.theTitle h1{
+    font-family: 'Museo Sans W01 700';
+    color: white;
+    text-align: center;
+    font-size: 1.25em;
+    margin: auto;
+    white-space: nowrap;
+    padding: .5em;
+}
+.theTitle small{font-size:.75em ;}
+.theBody{
+    font-family: 'Museo Sans W01 300';
+    color: white;
+    padding: 2em;
+    box-sizing: border-box;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 3em;
+    line-height: 1.5em;
+    font-size: .8em;
+}
+.theBody p{
+    margin-bottom: 1em;
+    /* font-size: .8em; */
+}
+.theLinks{
+    margin-left: 50%;
+    font-size: .8em;
+    padding-left: 2em;
+}
+.theLinks a{
+    display: block;
+    font-family: 'Museo Sans W01 700';
+    color: #27aae1;
+    margin-bottom: 1.5em;
+}
+
+.backgroundOuter{
+    position: absolute;
+    top: 128px;
+    bottom: 48px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: table;
+    width: 100%;
+}
+.backgroundBlockOuter{
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-bottom: inherit;
+    /* max-width: 300px; */
+}
+.backgroundBlock{
+    padding-bottom: 100%;
+    position: relative;
+}
+.backgroundBlockImage{
+    background-size: 99%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay:1.2s;
+animation-delay: 1.2s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+ 
+.fade-in.four {
+-webkit-animation-delay: 2.2s;
+-moz-animation-delay: 2.2s;
+animation-delay: 2.2s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 2.8s;
+-moz-animation-delay: 2.8s;
+animation-delay: 2.8s;
+}
+.fade-in.six {
+-webkit-animation-delay: 3.3s;
+-moz-animation-delay: 3.3s;
+animation-delay: 3.3s;
+}
+.fade-in.seven {
+-webkit-animation-delay: 3.9s;
+-moz-animation-delay: 3.9s;
+animation-delay: 3.9s;
+}
+.fade-in.eight {
+-webkit-animation-delay: 4.5s;
+-moz-animation-delay: 4.5s;
+animation-delay: 4.5s;
+}
+
+	.fade-in.content
+{
+-webkit-animation-delay: 5.5s;
+-moz-animation-delay: 5.5s;
+animation-delay: 5.5s;
+}

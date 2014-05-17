@@ -1,0 +1,37 @@
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=f7166927-45a9-4146-9cf4-fb4e7eee7a7c");
+@font-face{
+font-family:"Museo Sans W01 300";
+src:url("Fonts/fd479df2-01b0-4e3a-a411-915c477f1352.eot?#iefix");
+src:url("Fonts/fd479df2-01b0-4e3a-a411-915c477f1352.eot?#iefix") format("eot"),url("Fonts/b252d464-65cb-4950-88f7-ac0a1bf79b75.woff") format("woff"),url("Fonts/b3d18117-6517-4d3f-afc1-774086ff5fc1.ttf") format("truetype"),url("Fonts/b9bed509-0816-43d8-b14b-7525a21f4bde.svg#b9bed509-0816-43d8-b14b-7525a21f4bde") format("svg");
+}
+@font-face{
+font-family:"Museo Sans W01 700";
+src:url("Fonts/3d0a39cf-115c-4800-9b1e-31c7912abfc2.eot?#iefix");
+src:url("Fonts/3d0a39cf-115c-4800-9b1e-31c7912abfc2.eot?#iefix") format("eot"),url("Fonts/eadbb595-a394-48fc-834f-8bf5da15cddf.woff") format("woff"),url("Fonts/9bcba093-b507-4b9b-9c83-303003d3815c.ttf") format("truetype"),url("Fonts/9a2af429-2624-4bd1-a676-8f0eed3e7e31.svg#9a2af429-2624-4bd1-a676-8f0eed3e7e31") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Bold";
+src:url("Fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix");
+src:url("Fonts/fbc6b03a-b3a1-427c-a884-053deca3a53c.eot?#iefix") format("eot"),url("Fonts/d999c07b-a049-4eb5-b8a6-4f36ae25e67e.woff") format("woff"),url("Fonts/4d4a75f5-d32a-4a09-8665-133afd39cc37.ttf") format("truetype"),url("Fonts/8152bc4e-d700-4c78-b6be-326893e6f53f.svg#8152bc4e-d700-4c78-b6be-326893e6f53f") format("svg");
+}
+@font-face{
+font-family:"MuseoSansW01-300Italic";
+src:url("Fonts/90e6d1d9-33c0-4c63-9491-85041f7d5fd3.eot?#iefix");
+src:url("Fonts/90e6d1d9-33c0-4c63-9491-85041f7d5fd3.eot?#iefix") format("eot"),url("Fonts/96766c08-0e19-43a8-b45d-e95c5b09785c.woff") format("woff"),url("Fonts/304f4215-6b57-433a-83f7-2d4c3aaf82e9.ttf") format("truetype"),url("Fonts/2acdd065-8f32-4b1d-a7c8-c59fa153ce86.svg#2acdd065-8f32-4b1d-a7c8-c59fa153ce86") format("svg");
+}
+@font-face{
+font-family:"NewsGothicBTW01-BoldExt";
+src:url("Fonts/af84a364-dc0e-4e7a-b129-cab27cf034a9.eot?#iefix");
+src:url("Fonts/af84a364-dc0e-4e7a-b129-cab27cf034a9.eot?#iefix") format("eot"),url("Fonts/bc08372e-a7d9-4ef3-ba57-5e9559f46d5f.woff") format("woff"),url("Fonts/1766fd81-5985-4cc9-ad6f-ca1fc31a6708.ttf") format("truetype"),url("Fonts/932e571c-bcf1-474f-b23b-96f51f88f7e4.svg#932e571c-bcf1-474f-b23b-96f51f88f7e4") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Reg";
+src:url("Fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix");
+src:url("Fonts/7e90123f-e4a7-4689-b41f-6bcfe331c00a.eot?#iefix") format("eot"),url("Fonts/e56ecb6d-da41-4bd9-982d-2d295bec9ab0.woff") format("woff"),url("Fonts/2aff4f81-3e97-4a83-9e6c-45e33c024796.ttf") format("truetype"),url("Fonts/ab9cd062-380f-4b53-b1a7-c0bec7402235.svg#ab9cd062-380f-4b53-b1a7-c0bec7402235") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 Reg It";
+src:url("Fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix");
+src:url("Fonts/bc15a635-a09b-40d1-a5c4-70310166177d.eot?#iefix") format("eot"),url("Fonts/9c69c878-2255-4027-8632-ed3635cddf45.woff") format("woff"),url("Fonts/b7eb3871-e910-4522-9982-effb425a2714.ttf") format("truetype"),url("Fonts/a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf.svg#a0d89860-20e5-4bc0-b6c5-eae8ae0ebbbf") format("svg");
+}
